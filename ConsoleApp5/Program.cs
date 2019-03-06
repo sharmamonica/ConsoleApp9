@@ -7,6 +7,7 @@ namespace DelegatesAndEvents
         public delegate void MyDelegate();
         void Method1()
         {
+            // a
             Console.WriteLine("Method1");
             Console.ReadLine();
         }
